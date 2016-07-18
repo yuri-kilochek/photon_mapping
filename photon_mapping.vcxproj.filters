@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{82d8725d-d7d0-4c1f-8449-0fda9afab073}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{859617f3-56d4-4ec0-b215-99d10dac57d7}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Application.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Application.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FrequencyMeter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FrequencyMeter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="loadObj.cpp" />
+    <ClCompile Include="FrequencyMeter.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="Surface.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_Surface.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Surface.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Renderer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Renderer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Label.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Label.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="RendererBase.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_RendererBase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RendererBase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerSet.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_WorkerSet.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WorkerSet.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Application.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Application.hpp" />
+    <CustomBuild Include="FrequencyMeter.hpp" />
+    <CustomBuild Include="Surface.hpp" />
+    <CustomBuild Include="Renderer.hpp" />
+    <CustomBuild Include="Label.hpp" />
+    <CustomBuild Include="RendererBase.hpp" />
+    <CustomBuild Include="WorkerSet.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector.hpp" />
+    <ClInclude Include="Camera.hpp" />
+    <ClInclude Include="Color.hpp" />
+    <ClInclude Include="Extent.hpp" />
+    <ClInclude Include="loadObj.hpp" />
+    <ClInclude Include="mathConstants.hpp" />
+    <ClInclude Include="mathFunctions.hpp" />
+    <ClInclude Include="Matrix.hpp" />
+    <ClInclude Include="Mesh.hpp" />
+    <ClInclude Include="Object.hpp" />
+    <ClInclude Include="Point.hpp" />
+    <ClInclude Include="Random.hpp" />
+    <ClInclude Include="Ray.hpp" />
+    <ClInclude Include="Scene.hpp" />
+    <ClInclude Include="Texture.hpp" />
+    <ClInclude Include="Material.hpp" />
+    <ClInclude Include="Segment.hpp" />
+    <ClInclude Include="BoundingIntervalHierarchy.hpp" />
+    <ClInclude Include="PhotonMap.hpp" />
+    <ClInclude Include="Photon.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mesh.inl" />
+    <None Include="Object.inl" />
+    <None Include="Scene.inl" />
+    <None Include="Texture.inl" />
+    <None Include="Renderer.inl" />
+    <None Include="Surface.inl" />
+    <None Include="Material.inl" />
+    <None Include="RendererBase.inl" />
+    <None Include="WorkerSet.inl" />
+    <None Include="BoundingIntervalHierarchy.inl" />
+  </ItemGroup>
+</Project>
