@@ -1,4 +1,4 @@
-==Progressive photon mapping==
+== Progressive photon mapping ==
 
 Features:
 
